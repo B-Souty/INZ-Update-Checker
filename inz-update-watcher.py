@@ -100,9 +100,10 @@ def main(**options):
         updates['banner'] = None
 
     url_to_check = {
-        "key_update": "https://www.immigration.govt.nz/about-us/covid-19/coronavirus-update-inz-response",
-        "border_update": "https://www.immigration.govt.nz/about-us/covid-19/border-closures-and-exceptions",
-        "exception_update": "https://www.immigration.govt.nz/about-us/covid-19/border-closures-and-exceptions/critical-purpose-reasons-you-can-travel-to-new-zealand",
+        "migrant_info": "https://www.immigration.govt.nz/about-us/covid-19/outside-of-new-zealand/migrant-information",
+        "entry_reason": "https://www.immigration.govt.nz/about-us/covid-19/border-closures-and-exceptions/critical-purpose-reasons-you-can-travel-to-new-zealand",
+        "entry_request": "https://www.immigration.govt.nz/about-us/covid-19/border-closures-and-exceptions/how-to-request-to-travel",
+        "entry_requirement": "https://www.immigration.govt.nz/about-us/covid-19/border-closures-and-exceptions/border-entry-requirements"
     }
 
     for update_type, url in url_to_check.items():
